@@ -152,7 +152,7 @@ def main():
     print()
     if healthy:
         print("Verdict: relay is alive and serving. Next: verify it's not downgrading "
-              "the model → LLMprobe (github.com/cocodot2026/LLMprobe).")
+              "the model → LLMprobe (github.com/cocodot2026/cocodot-llmprobe).")
         return 0
     print("Verdict: relay is NOT serving completions. Check key, base URL, and model id.")
     return 1

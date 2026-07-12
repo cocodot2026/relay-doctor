@@ -4,7 +4,7 @@
 dependencies — Python 3 stdlib only. Your key never leaves your machine.**
 
 The quick smoke test you run *before* trusting a relay. (For the deep "am I being
-silently model-downgraded?" check, use [LLMprobe](https://github.com/cocodot2026/LLMprobe).)
+silently model-downgraded?" check, use [cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe).)
 
 ## What it checks
 1. **/models** — endpoint reachable? how many models exposed?
@@ -31,7 +31,7 @@ Verdict: relay is alive and serving. Next: verify it's not downgrading → LLMpr
 ## Where it fits
 A small honest toolkit for running AI from China:
 [relay-doctor](https://github.com/cocodot2026/relay-doctor) (is it alive?) →
-[LLMprobe](https://github.com/cocodot2026/LLMprobe) (real model?) →
+[cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe) (real model?) →
 [ai-api-cost](https://github.com/cocodot2026/ai-api-cost) (what will it cost?) →
 [ai-coding-from-china](https://github.com/cocodot2026/ai-coding-from-china) (wire it into Claude Code / Cursor).
 
