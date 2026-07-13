@@ -6,6 +6,18 @@ dependencies — Python 3 stdlib only. Your key never leaves your machine.**
 The quick smoke test you run *before* trusting a relay. (For the deep "am I being
 silently model-downgraded?" check, use [cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe).)
 
+![relay-doctor demo](assets/demo.png)
+
+## ⚡ 60-second quickstart
+
+```bash
+# no install, no deps — just Python 3
+curl -O https://raw.githubusercontent.com/cocodot2026/relay-doctor/main/relaydoc.py
+python relaydoc.py --base-url https://<relay>/v1 --api-key <key> --model <id>
+```
+One command → reachable? which models? does a completion work? streaming? latency.
+
+
 ## What it checks
 1. **/models** — endpoint reachable? how many models exposed?
 2. **chat completion** — does a real call succeed? round-trip latency, token usage,
