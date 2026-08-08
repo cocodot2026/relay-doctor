@@ -6,6 +6,9 @@ dependencies — Python 3 stdlib only. Your key never leaves your machine.**
 The quick smoke test you run *before* trusting a relay. (For the deep "am I being
 silently model-downgraded?" check, use [cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe).)
 
+> **Prefer a browser?** The deep downgrade check also runs online — no install:
+> **[probe.cocodot.co](https://probe.cocodot.co)** (free, keys are never stored, same open methodology).
+
 ![relay-doctor demo](assets/demo.png)
 
 ## ⚡ 60-second quickstart
