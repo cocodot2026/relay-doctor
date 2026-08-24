@@ -18,6 +18,11 @@ silently model-downgraded?" check, use [cocodot-llmprobe](https://github.com/coc
 curl -O https://raw.githubusercontent.com/cocodot2026/relay-doctor/main/relaydoc.py
 python relaydoc.py --base-url https://<relay>/v1 --api-key <key> --model <id>
 ```
+
+**Or run it with zero install** (via [pipx](https://pipx.pypa.io/)):
+```bash
+pipx run --spec git+https://github.com/cocodot2026/relay-doctor.git relay-doctor
+```
 One command → reachable? which models? does a completion work? streaming? latency.
 
 
