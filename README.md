@@ -55,5 +55,5 @@ A small honest toolkit for running AI from China:
 [ai-api-cost](https://github.com/cocodot2026/ai-api-cost) (what will it cost?) →
 [ai-coding-from-china](https://github.com/cocodot2026/ai-coding-from-china) (wire it into Claude Code / Cursor).
 
-The author builds [cocodot](https://cocodot.co), a relay — disclosed; this tool
+The author builds [cocodot](https://cocodot.co?utm_source=github&utm_medium=readme&utm_campaign=relay-doctor), a relay — disclosed; this tool
 works against **any** endpoint, cocodot included. MIT.
